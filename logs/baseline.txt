@@ -1,0 +1,12 @@
+=== baseline-only, full holdout ===
+
+predictor                              n  log loss  accuracy
+baseline, full holdout              3916     0.365     0.859
+baseline, LLM sample                 500     0.443     0.822
+
+2017 private leaderboard for scale: gold 0.165, silver 0.270, bronze 0.294, median 0.419
+
+real	0m45.509s
+user	8m20.159s
+sys	0m2.974s
+exit=0

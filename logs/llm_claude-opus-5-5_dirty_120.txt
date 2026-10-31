@@ -1,0 +1,25 @@
+model=claude-opus-5-5 mode=dirty n=120
+binary=$HOME/.vscode-server/extensions/anthropic.claude-code-2.1.283-linux-x64/resources/native-binary/claude
+Sat Oct 31 16:16:41 CET 2026
+
+predictor                              n  log loss  accuracy
+baseline, full holdout              3916     0.365     0.859
+baseline, LLM sample                 120     0.447     0.817
+LLM zero-shot, its probabilities     120     0.151     0.950
+LLM zero-shot, hard label            120     1.727     0.950
+
+2017 private leaderboard for scale: 1st 0.0247, gold 0.165, silver 0.270, bronze 0.294, median 0.419
+
+Model: claude-opus-5-5 via cli
+Hard failures (no reply, scored as 1/3 each): 0
+Unparseable replies (scored as 1/3 each): 0 of 120
+LLM named the work for 86% of sentences (accuracy when named: 0.990, when not: 0.706)
+Memorisation probe on 0 sentences with 20+ words: next 5 words exact at the start nan%, anywhere in the opening nan%
+
+Wrote $HOME/projects/spooky-post/predictions_claude-opus-5-5_dirty_120.csv
+
+real	4m5.791s
+user	9m31.580s
+sys	0m42.480s
+exit=0
+Sat Oct 31 16:20:46 CET 2026

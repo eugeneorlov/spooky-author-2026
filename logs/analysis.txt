@@ -1,0 +1,53 @@
+sentences classified: 500
+overall log loss 0.1318   accuracy 0.9660
+hard-label log loss 1.1743
+
+=== did it name the work ===
+named          n= 438 (87.6%)  accuracy 0.993  log loss 0.062  mean confidence 0.952
+did not name   n=  62 (12.4%)  accuracy 0.774  log loss 0.625  mean confidence 0.705
+
+=== could it reproduce the next 5 words (sentences with 20+ words) ===
+probed: 284   memorised: 69.4%
+memorised      n= 197 (69.4%)  accuracy 1.000  log loss 0.030  mean confidence 0.971
+not memorised  n=  87 (30.6%)  accuracy 1.000  log loss 0.060  mean confidence 0.943
+
+=== memorisation against naming ===
+named      False  True  All
+memorised                  
+False         11    76   87
+True           2   195  197
+All           13   271  284
+
+accuracy by cell:
+                 mean  size
+memorised named            
+False     False   1.0    11
+          True    1.0    76
+True      False   1.0     2
+          True    1.0   195
+
+=== LLM calibration ===
+  top in [0.00,0.50): n=   6  mean confidence 0.422  actual accuracy 0.667
+  top in [0.50,0.70): n=  23  mean confidence 0.573  actual accuracy 0.652
+  top in [0.70,0.90): n=  55  mean confidence 0.809  actual accuracy 0.873
+  top in [0.90,0.98): n= 249  mean confidence 0.950  actual accuracy 1.000
+  top in [0.98,1.01): n= 167  mean confidence 0.983  actual accuracy 1.000
+
+rows where it gave the true author under 0.01: 0
+worst single-row loss: 2.30
+share of total loss from the 17 wrong rows: 43.0%
+
+=== most-named works ===
+work
+The Last Man                                     64
+Frankenstein                                     49
+The Dunwich Horror                               18
+The Shadow over Innsmouth                        17
+Mathilda                                         15
+The Murders in the Rue Morgue                    10
+Herbert West—Reanimator                          10
+The Spectacles                                    9
+The Unparalleled Adventure of One Hans Pfaall     8
+The Dreams in the Witch House                     8
+The Man That Was Used Up                          7
+The Business Man                                  6

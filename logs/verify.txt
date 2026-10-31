@@ -1,0 +1,52 @@
+=== download github copy ===
+http=200 size=3295644
+"id","text","author"
+"id26305","This process, however, afforded me no means of ascertaining the dimensions of my dungeon; as I might make its circuit, and return to the point whence I set out, without being aware of the fact; so perfectly uniform seemed the wall.","EAP"
+"id17569","It never once occu
+19580 $HOME/projects/spooky-post/data/gh_train.csv
+
+=== uv env ===
+Using CPython 3.10.12 interpreter at: /usr/bin/python3.10
+Creating virtual environment at: .venv
+Activate with: source .venv/bin/activate
+ + scikit-learn==1.7.2
+ + scipy==1.15.3
+ + six==1.17.0
+ + threadpoolctl==3.7.0
+ + tzdata==2026.6
+
+=== cross-check ===
+HF copy:     19579 rows, columns ['id', 'text', 'author']
+GitHub copy: 19579 rows, columns ['id', 'text', 'author']
+
+GitHub label counts:
+author
+EAP    7900
+HPL    5635
+MWS    6044
+
+HF label counts:
+author
+0    7900
+1    5635
+2    6044
+
+ids present in both: 19579 of 19579 / 19579
+duplicate ids: hf=0 gh=0
+identical text on matched ids: 19579 of 19579
+
+integer label (HF rows) vs string label (GitHub cols):
+author_gh   EAP   HPL   MWS
+author_hf                  
+0          7900     0     0
+1             0  5635     0
+2             0     0  6044
+
+bijection clean: True
+derived mapping: {0: 'EAP', 1: 'HPL', 2: 'MWS'}
+
+mean words per sentence: 26.73
+total words: 523356
+
+VERIFICATION PASSED: 19,579 rows, texts agree, labels map one-to-one.
+exit=0
