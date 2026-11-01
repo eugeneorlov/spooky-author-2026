@@ -1,0 +1,38 @@
+=== how coarse are the numbers ===
+distinct values the top number takes: 28 across 500 rows
+0.98    129
+0.97     77
+0.95     57
+0.96     47
+0.99     26
+0.90     22
+0.93     19
+0.85     19
+
+distinct values anywhere in the three slots: 51
+
+=== did it obey the simplex without being asked ===
+rows already summing to exactly 1: 500 of 500
+
+=== stated confidence against realised accuracy ===
+mean stated confidence in the top author: 0.9217
+actual accuracy:                          0.9660
+so it is underconfident by:               0.0443
+
+  stated exactly 1.00: n= 11  correct 1.000
+  stated exactly 0.99: n= 26  correct 1.000
+  stated exactly 0.98: n=129  correct 1.000
+  stated exactly 0.97: n= 77  correct 1.000
+  stated exactly 0.96: n= 47  correct 1.000
+  stated exactly 0.95: n= 57  correct 1.000
+
+=== the all-in rows ===
+rows with 1.0 on one author and 0.0 on the others: 11
+correct on those rows: 11 of 11
+cost of a single wrong all-in row on the final score: 0.0691
+the run's actual score, for comparison:               0.1318
+
+=== floor on the true author ===
+lowest probability it ever placed on the true author: 0.1000
+rows with an exact 0 somewhere: 11, of which on the true author: 0
+exit=0
