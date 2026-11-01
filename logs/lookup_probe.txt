@@ -1,0 +1,40 @@
+=== in my Gutenberg corpus, or not ===
+findable by grep   n= 378  LLM accuracy 0.960  log loss 0.1463  named the work 87.3%
+not findable       n= 122  LLM accuracy 0.984  log loss 0.0867  named the work 88.5%
+
+=== the probe, split by whether my corpus has the sentence (20+ words only) ===
+findable by grep   n= 200  recited the next 5 words 70.5%
+not findable       n=  84  recited the next 5 words 66.7%
+
+=== per author, since Gutenberg US coverage is uneven ===
+EAP: n= 200  findable  95.0%  recited  72.3%  named  86.5%  LLM accuracy 0.965  log loss 0.1483
+HPL: n= 161  findable  33.5%  recited  69.4%  named  86.3%  LLM accuracy 0.975  log loss 0.1174
+MWS: n= 139  findable  96.4%  recited  65.3%  named  90.6%  LLM accuracy 0.957  log loss 0.1246
+
+=== the sentences the model got wrong that grep got right ===
+author pred  conf  words hits                    work
+   MWS  HPL  0.70     10  MWS                 unknown
+   EAP  MWS  0.82     10  EAP                Mathilda
+   MWS  EAP  0.60      9  MWS                 unknown
+   MWS  EAP  0.50     14  MWS                 unknown
+   MWS  EAP  0.75     12  MWS                 unknown
+   EAP  MWS  0.45      9  EAP                 unknown
+   HPL  EAP  0.75      4  HPL                 unknown
+   EAP  MWS  0.82      7  EAP            The Last Man
+   EAP  MWS  0.80     14  EAP                 unknown
+   MWS  EAP  0.80     11  MWS                 unknown
+   EAP  HPL  0.50      7  EAP                 unknown
+   EAP  HPL  0.40      8  EAP                 unknown
+   MWS  HPL  0.50     15  MWS                 unknown
+   EAP  HPL  0.65      6  EAP Herbert West—Reanimator
+   HPL  MWS  0.65      6  HPL                 unknown
+
+model wrong on findable text: 15 of 17 errors
+
+=== what a 2017 team could have submitted, by lookup confidence ===
+  0.98                 lookup only, thirds on a miss: log loss 0.2833
+  0.999                lookup only, thirds on a miss: log loss 0.2688
+  0.999999999999999    lookup only, thirds on a miss: log loss 0.2681
+
+Coverage is the binding constraint, not the method: every single hit was correct,
+so a complete corpus would drive this toward 0.0000.

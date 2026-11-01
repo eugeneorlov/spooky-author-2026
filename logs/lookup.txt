@@ -1,0 +1,30 @@
+=== corpus ===
+EAP: 21 files, 7.0 MB normalised
+HPL: 20 files, 1.9 MB normalised
+MWS: 21 files, 9.4 MB normalised
+
+=== verbatim lookup of the 500 held-out sentences ===
+found in exactly one author's books: 378 (75.6%)
+found in more than one:              0
+not found:                           122 (24.4%)
+of the single hits, the author matched the label: 378/378
+
+=== coverage by true author ===
+EAP: 190/200 sentences found (95.0%)
+HPL: 54/161 sentences found (33.5%)
+MWS: 134/139 sentences found (96.4%)
+
+=== by sentence length ===
+under 20 words     178/216 found (82.4%)
+20 words or more   200/284 found (70.4%)
+
+predictor                                    log loss  accuracy
+2017 recipe on train.csv (same 500)            0.4433     0.822
+LLM zero-shot (same 500)                       0.1318     0.966
+lookup only, 0.98 on a hit, thirds otherwise   0.2833     0.776
+lookup, 2017 baseline fills the misses         0.1318     0.958
+
+=== where the lookup and the LLM disagree with the truth ===
+LLM wrong and sentence was findable:     15
+LLM wrong and sentence was not findable: 2
+LLM right but sentence not findable:     120

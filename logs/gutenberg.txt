@@ -1,0 +1,139 @@
+=== catalogue ===
+90931 $HOME/projects/spooky-post/data/gutenberg/pg_catalog.csv
+
+=== selected books ===
+# EAP: 21 books
+# HPL: 20 books
+# MWS: 21 books
+MWS	84	Frankenstein; or, The modern Prometheus
+EAP	932	The Fall of the House of Usher
+EAP	1062	First Project Gutenberg Collection of Edgar Allan Poe
+EAP	1063	The Cask of Amontillado
+EAP	1064	The Masque of the Red Death
+EAP	1065	The Raven
+EAP	2147	The Works of Edgar Allan Poe — Volume 1
+EAP	2148	The Works of Edgar Allan Poe — Volume 2
+EAP	2149	The Works of Edgar Allan Poe — Volume 3
+EAP	2150	The Works of Edgar Allan Poe — Volume 4
+EAP	2151	The Works of Edgar Allan Poe — Volume 5
+MWS	4695	Notes to the Complete Poetical Works of Percy Bysshe Shelley
+MWS	6447	Proserpine and Midas
+EAP	8893	Selections from Poe
+EAP	10031	The Complete Poetical Works of Edgar Allan Poe  Including Essays on Po
+MWS	15238	Mathilda
+EAP	17192	The Raven
+MWS	18247	The Last Man
+EAP	25525	The Works of Edgar Allan Poe, The Raven Edition Table Of Contents And 
+HPL	30637	Writings in the United Amateur, 1915-1922
+HPL	31469	The Shunned House
+EAP	32037	Eureka: A Prose Poem
+MWS	41445	Frankenstein; or, The modern Prometheus
+MWS	42324	Frankenstein; or, The modern Prometheus
+EAP	45484	The Raven Illustrated
+HPL	50133	The Dunwich horror
+EAP	50852	The Bells, and Other Poems
+EAP	51060	The Narrative of Arthur Gordon Pym of Nantucket  Comprising the detail
+EAP	55749	The Raven, and The Philosophy of Composition
+MWS	56665	Tales and Stories Now First Collected
+MWS	63337	Valperga Volume 1 (of 3) or, The life and adventures of Castruccio, pr
+MWS	63338	Valperga Volume 2 (of 3) or, The life and adventures of Castruccio, pr
+MWS	63339	Valperga Volume 3 (of 3) or, The life and adventures of Castruccio, pr
+MWS	64329	Falkner: A Novel
+MWS	64555	Lodore, Vol. 1 (of 3)
+MWS	64556	Lodore, Vol. 2 (of 3)
+MWS	64557	Lodore, Vol. 3 (of 3)
+MWS	65317	Lives of the most eminent literary and scientific men of France, Vol. 
+MWS	65361	Lives of the most eminent literary and scientific men of France, Vol. 
+MWS	66545	The Heir of Mondolfo
+MWS	66749	The Fortunes of Perkin Warbeck: a romance
+HPL	68236	The colour out of space
+HPL	68283	The call of Cthulhu
+HPL	68547	He
+HPL	68553	The festival
+HPL	70478	The silver key
+HPL	70486	The lurking fear
+HPL	70652	At the mountains of madness
+HPL	72966	The horror at Red Hook
+HPL	73177	Cool air
+HPL	73181	The shadow over Innsmouth
+HPL	73182	The quest of Iranon
+HPL	73230	The thing on the door-step
+HPL	73233	The haunter of the dark
+HPL	73547	The case of Charles Dexter Ward
+MWS	74280	Rambles in Germany and Italy in 1840, 1842, and 1843, vol. 1 of 2
+MWS	74301	Rambles in Germany and Italy in 1840, 1842, and 1843, vol. 2 of 2
+EAP	76996	The poems of Edgar Allan Poe
+EAP	79019	The poetical works of Edgar Allan Poe
+HPL	79401	Pickman's model
+HPL	79405	The picture in the house
+HPL	79842	The temple
+
+=== downloading ===
+  MWS  84         448885  Frankenstein; or, The modern Prometheus
+  EAP  932         63271  The Fall of the House of Usher
+  EAP  1062        56003  First Project Gutenberg Collection of Edgar Allan Poe
+  EAP  1063        33242  The Cask of Amontillado
+  EAP  1064        33893  The Masque of the Red Death
+  EAP  1065        27244  The Raven
+  EAP  2147       606476  The Works of Edgar Allan Poe — Volume 1
+  EAP  2148       638474  The Works of Edgar Allan Poe — Volume 2
+  EAP  2149       656176  The Works of Edgar Allan Poe — Volume 3
+  EAP  2150       591486  The Works of Edgar Allan Poe — Volume 4
+  EAP  2151       504996  The Works of Edgar Allan Poe — Volume 5
+  MWS  4695       163945  Notes to the Complete Poetical Works of Percy Bysshe Shelley
+  MWS  6447       126387  Proserpine and Midas
+  EAP  8893       426126  Selections from Poe
+  EAP  10031      408459  The Complete Poetical Works of Edgar Allan Poe  Including Essays on Po
+  MWS  15238      288853  Mathilda
+  EAP  17192       66491  The Raven
+  MWS  18247     1042910  The Last Man
+  EAP  25525     2920913  The Works of Edgar Allan Poe, The Raven Edition Table Of Contents And 
+  HPL  30637      646378  Writings in the United Amateur, 1915-1922
+  HPL  31469       85033  The Shunned House
+  EAP  32037      296805  Eureka: A Prose Poem
+  MWS  41445      438113  Frankenstein; or, The modern Prometheus
+  MWS  42324      465869  Frankenstein; or, The modern Prometheus
+  EAP  45484       29922  The Raven Illustrated
+  HPL  50133      123217  The Dunwich horror
+  EAP  50852      109516  The Bells, and Other Poems
+  EAP  51060      429545  The Narrative of Arthur Gordon Pym of Nantucket  Comprising the detail
+  EAP  55749       59555  The Raven, and The Philosophy of Composition
+  MWS  56665      769667  Tales and Stories Now First Collected
+  MWS  63337      337974  Valperga Volume 1 (of 3) or, The life and adventures of Castruccio, pr
+  MWS  63338      326641  Valperga Volume 2 (of 3) or, The life and adventures of Castruccio, pr
+  MWS  63339      302481  Valperga Volume 3 (of 3) or, The life and adventures of Castruccio, pr
+  MWS  64329      889759  Falkner: A Novel
+  MWS  64555      305848  Lodore, Vol. 1 (of 3)
+  MWS  64556      301314  Lodore, Vol. 2 (of 3)
+  MWS  64557      314358  Lodore, Vol. 3 (of 3)
+  MWS  65317      844147  Lives of the most eminent literary and scientific men of France, Vol. 
+  MWS  65361     1114880  Lives of the most eminent literary and scientific men of France, Vol. 
+  MWS  66545       91397  The Heir of Mondolfo
+  MWS  66749     1085242  The Fortunes of Perkin Warbeck: a romance
+  HPL  68236       91134  The colour out of space
+  HPL  68283       92370  The call of Cthulhu
+  HPL  68547       44734  He
+  HPL  68553       40965  The festival
+  HPL  70478       49055  The silver key
+  HPL  70486       69355  The lurking fear
+  HPL  70652      270446  At the mountains of madness
+  HPL  72966       70984  The horror at Red Hook
+  HPL  73177       40682  Cool air
+  HPL  73181      118589  The shadow over Innsmouth
+  HPL  73182       35184  The quest of Iranon
+  HPL  73230       82847  The thing on the door-step
+  HPL  73233       76538  The haunter of the dark
+  HPL  73547      288644  The case of Charles Dexter Ward
+  MWS  74280      399313  Rambles in Germany and Italy in 1840, 1842, and 1843, vol. 1 of 2
+  MWS  74301      416289  Rambles in Germany and Italy in 1840, 1842, and 1843, vol. 2 of 2
+  EAP  76996      281320  The poems of Edgar Allan Poe
+  EAP  79019      234879  The poetical works of Edgar Allan Poe
+  HPL  79401       51269  Pickman's model
+  HPL  79405       39582  The picture in the house
+  HPL  79842       51614  The temple
+
+=== totals ===
+downloaded 62, missing 0
+EAP: 21 files, 8 MB
+HPL: 20 files, 2 MB
+MWS: 21 files, 10 MB

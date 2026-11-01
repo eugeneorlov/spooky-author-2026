@@ -1,0 +1,27 @@
+=== corpus sentences ===
+EAP: 21 files, 44,208 raw, 22,050 unique, 1,145 were holdout sentences, using 20,905
+HPL: 20 files, 12,589 raw, 12,557 unique, 356 were holdout sentences, using 12,201
+MWS: 21 files, 64,002 raw, 59,878 unique, 994 were holdout sentences, using 30,000
+
+baseline for comparison: the 2017 recipe on 15,663 train.csv sentences
+
+--- baseline: train.csv 80% split ---
+training sentences: 15,663   features: 125,340   fit 32s
+  the LLM's 500                log loss 0.4433   accuracy 0.8220
+  full holdout (3,916)         log loss 0.3652   accuracy 0.8593
+
+--- A: corpus only, holdout removed ---
+training sentences: 63,106   features: 372,378   fit 90s
+  the LLM's 500                log loss 0.4930   accuracy 0.8160
+  full holdout (3,916)         log loss 0.4353   accuracy 0.8332
+
+--- B: corpus + train split, holdout removed ---
+training sentences: 78,769   features: 457,075   fit 94s
+  the LLM's 500                log loss 0.4005   accuracy 0.8540
+  full holdout (3,916)         log loss 0.3617   accuracy 0.8641
+
+--- C: corpus + train split, holdout left in ---
+training sentences: 80,270   features: 461,424   fit 99s
+  the LLM's 500                log loss 0.2314   accuracy 0.9200
+  full holdout (3,916)         log loss 0.2016   accuracy 0.9356
+exit=0
